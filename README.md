@@ -2,10 +2,10 @@
 Repositório destinado a criação, desenvolvimento e atualização de uma aplicação web voltada para eventos do curso de Sistemas e Mídias Digitais
 
 # REQUISITOS
- RF GA001 Cadastrar usuário no sistema
- RF UP002 Cadastrar evento
- RF UP003 Editar características do evento
- RF UP004 Adicionar atividades no evento 
+ RF GA001 Cadastrar usuário no sistema \
+ RF UP002 Cadastrar evento\
+ RF UP003 Editar características do evento\
+ RF UP004 Adicionar atividades no evento \
  RF UP005 Adicionar demais administradores/monitores do evento
  RF UP006 Adicionar (por meio de uma lista importada) todos os participantes no evento em ação única
  RF UP007 Adicionar participante único no evento
