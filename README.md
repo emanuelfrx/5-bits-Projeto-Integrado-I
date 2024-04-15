@@ -23,7 +23,7 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
  RNF UP016 Verificar a quantidade de vagas na sala para uma atividade\
  RNF US017 Ver o histórico de atividades em que participou\
  
-# O projeto da equipe 5Bits conta com a colaboração dos estudantes:\
+# O projeto da equipe 5Bits conta com a colaboração dos estudantes:
 
 Ana Leticia de Sousa Lourinho - 555876\
 Antonio Emanuel Franca Freitas - 552956\
