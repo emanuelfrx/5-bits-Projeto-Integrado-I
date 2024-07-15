@@ -16,7 +16,7 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
  RF GA012 Verificar se participante se tornou elegível a receber o certificado\
  RF GA013 Gerar certificado com dados de cada participante\
  RF GA014 Emitir certificado de participação\
- RF US015 Notificar o usuário da emissão de certificado\
+ RF US015 Notificar o usuário da emissão de certificado
 
 
 # Requisitos Não Funcionais
@@ -29,7 +29,7 @@ Ana Leticia de Sousa Lourinho\
 Antonio Emanuel Franca Freitas\
 Estefane Cavalcante da Silva\
 Eugênio Vitor da Silva Nascimento\
-Guilherme Ferreira Gomes\
+Guilherme Ferreira Gomes
 
 
 
