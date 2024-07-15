@@ -10,7 +10,7 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
  RF UP006 Adicionar (por meio de uma lista importada) todos os participantes no evento em ação única\
  RF UP007 Adicionar participante único no evento\
  RF UP008 Adicionar participante em atividade específica do evento\
- RF UP009 Importar dados dos participantes para emitir certificados\
+ RF UP009 Exportar dados dos participantes para emitir certificados\
  RF UP010 Confirmar credenciamento do participante\
  RF UP011 Registrar presença dos participantes no evento\
  RF GA012 Verificar se participante se tornou elegível a receber o certificado\
