@@ -21,7 +21,7 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
 
 # Requisitos Não Funcionais
  RNF UP016 Verificar a quantidade de vagas na sala para uma atividade\
- RNF US017 Ver o histórico de atividades em que participou\
+ RNF US017 Ver o histórico de atividades em que participou
  
 # O projeto da equipe 5Bits conta com a colaboração dos estudantes:
 
