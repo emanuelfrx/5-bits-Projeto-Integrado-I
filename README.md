@@ -25,10 +25,11 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
  
 # O projeto da equipe 5Bits conta com a colaboração dos estudantes:
 
-Ana Leticia de Sousa Lourinho - 555876\
-Antonio Emanuel Franca Freitas - 552956\
-Estefane Cavalcante da Silva - 554115\
-Eugênio Vitor da Silva Nascimento - 555203\
-Guilherme Ferreira Gomes - 552251\
+Ana Leticia de Sousa Lourinho\
+Antonio Emanuel Franca Freitas\
+Estefane Cavalcante da Silva\
+Eugênio Vitor da Silva Nascimento\
+Guilherme Ferreira Gomes\
+
 
 
