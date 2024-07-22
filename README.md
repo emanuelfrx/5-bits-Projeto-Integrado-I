@@ -61,13 +61,14 @@ https://code.visualstudio.com/download
 https://dev.mysql.com/downloads/installer/**
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
 6. Logo após clique em **No thank, just start my download**
-https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp
-7. Após o download clique no instalador e siga os passos abaixo para a instalação
-   https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_5.PNG
+   ![no tanks](https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp)
+8. Após o download clique no instalador e siga os passos abaixo para a instalação
+   ![](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_5.PNG)
 
 Logo após clique em “Next” novamente
 
 Logo após escolha o modo de uso do seu banco as opções são
+
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
 
 Desenvolvimento: Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.
