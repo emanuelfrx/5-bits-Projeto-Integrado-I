@@ -42,29 +42,32 @@ Tutorial v1
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg"  alt="Passo 1">
 3. Clique em <b>Next</b>  
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
-4. Aceite os termos e Clique em <b>Next</b>    
+4. Aceite os termos e Clique em <b>Next</b>
+   <p align="center">
+
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg"  align="center"  alt="Passo 3">
-5. Clique em <b>Next</b>   
+</p>
+6. Clique em <b>Next</b>   
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem7.jpg"  align="center"  alt="Passo 4">
-6. Para verificar se o node foi realmente instalado na sua maquina abra o cmd com o comando <b>Windows + R</b>   digite <b>cmd</b>  
+7. Para verificar se o node foi realmente instalado na sua maquina abra o cmd com o comando <b>Windows + R</b>   digite <b>cmd</b>  
 e em seguida digite o comando **node --version**  
 <img src="https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66"  align="center"  alt="Passo 2">
 
-7. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
+8. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
 https://code.visualstudio.com/download <br>
 <img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png"  align="center"  alt="Vscode"> <br>
 
 
 
-8. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
+9. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
 https://dev.mysql.com/downloads/installer/** <br>
    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
-9. Logo após clique em **No thank, just start my download** <br>
+10. Logo após clique em **No thank, just start my download** <br>
   
-10. Após o download clique no instalador e siga os passos abaixo para a instalação
+11. Após o download clique no instalador e siga os passos abaixo para a instalação
  <img src= "https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp" alt="Instaler">
-11. Logo após clique em <b>Next</b> novamente <br>
-12. Logo após escolha o modo de uso do seu banco as opções são: <br>
+12. Logo após clique em <b>Next</b> novamente <br>
+13. Logo após escolha o modo de uso do seu banco as opções são: <br>
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7"><br>
 <p><b>Desenvolvimento: </b> Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.</p>
