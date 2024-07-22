@@ -40,7 +40,7 @@ Tutorial v1
 2.  Clique em <b>Next</b>  
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg"  alt="Passo 1">
 3. Clique em <b>Next</b>  
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" style="position:center" alt="Passo 2">
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
 4. Clique em <b>Next</b>    
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">
 5. Clique em <b>Next</b>   
@@ -48,8 +48,6 @@ Tutorial v1
 6. Para verificar se o node foi realmente instalado na sua maquina abra o cmd com o comando <b>Windows + R</b>   digite <b>cmd</b>  
 e em seguida digite o comando **node --version**  
 <img src="https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66" alt="Passo 2">
-
-
 
 7. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
 https://code.visualstudio.com/download
@@ -64,16 +62,16 @@ https://dev.mysql.com/downloads/installer/**
   
 10. Após o download clique no instalador e siga os passos abaixo para a instalação
  <img src= "https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp" alt="Instaler">
-11. Logo após clique em “Next” novamente
+11. Logo após clique em <b>Next</b> novamente
 
 12. Logo após escolha o modo de uso do seu banco as opções são
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
 
-**Desenvolvimento:** Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.
-**Servidor:** Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.
-**Dedicado:** Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.
-**Manual:** Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.
+<p>**Desenvolvimento:** Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.</p>
+<p>Servidor:**Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.</p>
+<p>**Dedicado:** Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.</p>
+<p>**Manual:** Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.</p>
 11. Logo após clique em “Next “
 12. Logo após insira a “Senha” do seu acesso 
 ![passo 8](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
