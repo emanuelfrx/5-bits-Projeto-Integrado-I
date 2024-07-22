@@ -73,17 +73,12 @@ https://dev.mysql.com/downloads/installer/** <br>
 11. Logo após clique em <b>Next</b><br>
 12. Logo após insira a <b>Senha</b> do seu acesso  <br>
 <img src= "https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png"
-
 13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação <br>
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png">
-
 14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b> <br>
 15. Após entrar na area principal do mysql workbench voce pode clicar na aba <b>FIle</b> e clicar em <b>Open Model</b> <br>
 16. Agora insira sua senha para entrar <br>
 
-
-Link referencia de instalção
-<a = hreaf="https://www.alura.com.br/artigos/mysql-instalacao-configuracao?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwnei0BhB-EiwAA2xuBundFUVjzzb-PL4grdcIRdSukZeNWP-z3VVYscIuThZb9KiARM1brxoC-KQQAvD_BwE">Tutorial </a>
 
 
 
