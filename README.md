@@ -76,6 +76,7 @@ https://dev.mysql.com/downloads/installer/** <br>
 13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação <br>
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png">
 14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b> <br>
+<img src = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGPqlGbSMQqL7a-NNEC2uvhVa85nLLMZ3yuTccCrhyFMzXZFQpNhgHTKVDHX5p_l0na2zWLS38QS-z8NjTMPqX83M1F3kD5vmmBBaA6cjv9GiBwbTugwvFoX-pmHng2zkKj6ECXGAuGX4/s640/2017-09-03+18_17_47-Greenshot.png" alt = "">
 15. Após entrar na area principal do mysql workbench voce pode clicar na aba <b>FIle</b> e clicar em <b>Open Model</b> <br>
 16. Agora insira sua senha para entrar <br>
 
