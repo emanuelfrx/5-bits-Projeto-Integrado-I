@@ -41,7 +41,7 @@ Tutorial v1
 2.  Clique em <b>Next</b>  
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg"  alt="Passo 1">
 3. Clique em <b>Next</b>  
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" align="center" alt="Passo 2">
 4. Aceite os termos e Clique em <b>Next</b>    
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">
 5. Clique em <b>Next</b>   
