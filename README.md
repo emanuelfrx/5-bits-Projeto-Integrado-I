@@ -37,9 +37,9 @@ Guilherme Ferreira Gomes
 Tutorial v1
 	
 1. Instalar o **Node Js 20.12.2 LTS** na sua maquina a partir do link abaixo https://nodejs.org/en/download/prebuilt-installer\
-2. Clique em **Next**
+1.1 Clique em **Next**\
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg" alt="Passo 1">
-->  Clique em __Next__\
+1.2 Clique em **Next**\
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
 -> Clique em **Next**\
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">
