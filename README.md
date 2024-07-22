@@ -39,16 +39,15 @@ Tutorial v1
 1. Instalar o **Node Js 20.12.2 LTS** na sua maquina a partir do link abaixo https://nodejs.org/en/download/prebuilt-installer
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg" alt="Passo 1">
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 2">
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem7.jpg" alt="Passo 2">
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem7.jpg" alt="Passo 4">
 <img src="https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66" alt="Passo 2">
 
 
 
 3. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
 https://code.visualstudio.com/download
-<img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png
-" alt="Vscode">
+<img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png" alt="Vscode">
 
 
 
@@ -63,8 +62,7 @@ https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/201
 Logo após clique em “Next” novamente
 
 Logo após escolha o modo de uso do seu banco as opções são
-<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png
-" alt="Passo 7">
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
 
 Desenvolvimento: Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.
 Servidor: Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.
@@ -83,7 +81,8 @@ Logo após insira a “Senha” do seu acesso
 
 
 Depois prossiga clicando em “Next” para prosseguir com a instação
-https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png
+![next](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png
+)
 
 Agora insira sua senha para poder entrar no seu ambiente 
 Após entrar na area principal do mysql workbench voce pode clicar na aba “FIle” e clicar em “Open Model”
