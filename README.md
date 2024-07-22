@@ -50,42 +50,40 @@ e em seguida digite o comando **node --version**
 <img src="https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66" alt="Passo 2">
 
 7. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
-https://code.visualstudio.com/download
-<img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png" alt="Vscode">
+https://code.visualstudio.com/download <br>
+<img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png" alt="Vscode"> <br>
 
 
 
 8. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
-https://dev.mysql.com/downloads/installer/**
+https://dev.mysql.com/downloads/installer/** <br>
    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
-9. Logo após clique em **No thank, just start my download**
+9. Logo após clique em **No thank, just start my download** <br>
   
 10. Após o download clique no instalador e siga os passos abaixo para a instalação
  <img src= "https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp" alt="Instaler">
-11. Logo após clique em <b>Next</b> novamente
+11. Logo após clique em <b>Next</b> novamente <br>
+12. Logo após escolha o modo de uso do seu banco as opções são: <br>
 
-12. Logo após escolha o modo de uso do seu banco as opções são
-
-<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
-<b></b>
+<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7"><br>
 <p><b>Desenvolvimento: </b> Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.</p>
 <p><b>Servidor: </b>Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.</p>
 <p> <b>Dedicado:</b> Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.</p>
 <p><b>Manual:</b> Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.</p>
 11. Logo após clique em <b>Next</b><br>
-12. Logo após insira a <b>Senha</b> do seu acesso 
+12. Logo após insira a <b>Senha</b> do seu acesso  <br>
 <img src= "https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png"
 
-13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação
+13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação <br>
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png">
 
-14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b>
-15. Após entrar na area principal do mysql workbench voce pode clicar na aba <b>FIle</b> e clicar em <b>Open Model</b>
+14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b> <br>
+15. Após entrar na area principal do mysql workbench voce pode clicar na aba <b>FIle</b> e clicar em <b>Open Model</b> <br>
+16. Agora insira sua senha para entrar <br>
 
-16. Agora insira sua senha para entrar 
 
-
-link tutorial de instalação msql: https://www.alura.com.br/artigos/mysql-instalacao-configuracao?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwnei0BhB-EiwAA2xuBundFUVjzzb-PL4grdcIRdSukZeNWP-z3VVYscIuThZb9KiARM1brxoC-KQQAvD_BwE
+Link referencia de instalção
+<a = hreaf="https://www.alura.com.br/artigos/mysql-instalacao-configuracao?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwnei0BhB-EiwAA2xuBundFUVjzzb-PL4grdcIRdSukZeNWP-z3VVYscIuThZb9KiARM1brxoC-KQQAvD_BwE">Tutorial </a>
 
 
 
