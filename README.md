@@ -59,13 +59,13 @@ https://code.visualstudio.com/download
 
 5. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
 https://dev.mysql.com/downloads/installer/**
-<img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
+   <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
 6. Logo após clique em **No thank, just start my download**
-   ![no tanks](https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp)
+   <img src= "https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp" alt="Instaler">
 8. Após o download clique no instalador e siga os passos abaixo para a instalação
    ![aaaa](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_5.PNG)
 
-Logo após clique em “Next” novamente
+9. Logo após clique em “Next” novamente
 
 Logo após escolha o modo de uso do seu banco as opções são
 
