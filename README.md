@@ -31,5 +31,60 @@ Estefane Cavalcante da Silva\
 Eugênio Vitor da Silva Nascimento\
 Guilherme Ferreira Gomes
 
+# Instalação e Execução do Projeto 
+
+
+Tutorial v1
+	
+1. Instalar o **Node Js 20.12.2 LTS** na sua maquina a partir do link abaixo https://nodejs.org/en/download/prebuilt-installer
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg" alt="Passo 1">
+
+2. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
+https://code.visualstudio.com/download
+
+3. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
+https://dev.mysql.com/downloads/installer/**
+
+4. Logo após clique em **No thank, just start my download**
+
+5. Após o download clique no instalador e siga os passos abaixo para a instalação
+
+Clique em Executar
+
+
+Após a instalação clique de todos os pacotes clique em Next
+
+
+Logo após clique em “Next” novamente
+
+Logo após escolha o modo de uso do seu banco as opções são
+Desenvolvimento: Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.
+Servidor: Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.
+Dedicado: Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.
+
+
+Manual
+
+Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.
+
+Logo após clique em “Next “
+
+
+Logo após insira a “Senha” do seu acesso 
+
+
+
+Depois prossiga clicando em “Next” para prosseguir com a instação
+Agora insira sua senha para poder entrar no seu ambiente 
+Após entrar na area principal do mysql workbench voce pode clicar na aba “FIle” e clicar em “Open Model”
+
+Agora 
+insira sua senha para entrar 
+
+
+link tutorial de instalação msql: https://www.alura.com.br/artigos/mysql-instalacao-configuracao?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=164240702375&hsa_ad=703829337057&hsa_src=g&hsa_tgt=dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwnei0BhB-EiwAA2xuBundFUVjzzb-PL4grdcIRdSukZeNWP-z3VVYscIuThZb9KiARM1brxoC-KQQAvD_BwE
+
+
+
 
 
