@@ -36,37 +36,37 @@ Guilherme Ferreira Gomes
 
 Tutorial v1
 	
-1. Instalar o **Node Js 20.12.2 LTS** na sua maquina a partir do link abaixo https://nodejs.org/en/download/prebuilt-installer  
-1.1 Clique em **Next**  
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg" alt="Passo 1">  
-1.2 Clique em **Next**
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">  
-1.3 Clique em **Next**  
-<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">  
-1.4  Clique em **Next**  
+1. Instalar o **Node Js 20.12.2 LTS** na sua maquina a partir do link abaixo https://nodejs.org/en/download/prebuilt-installer
+2.  Clique em **Next**  
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem1.jpg" alt="Passo 1">
+3. Clique em **Next**
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem3.jpg" alt="Passo 2">
+4. Clique em **Next**  
+<img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem4.jpg" alt="Passo 3">
+5. Clique em **Next**  
 <img src="https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem7.jpg" alt="Passo 4">
-1.5 Para verificar se o node foi realmente instalado na sua maquina abra o cmd com o comando **Windows + R** digite **cmd**
+6. Para verificar se o node foi realmente instalado na sua maquina abra o cmd com o comando **Windows + R** digite **cmd**
 e em seguida digite o comando **node --version**
 <img src="https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66" alt="Passo 2">
 
 
 
-3. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
+7. Instalar o editor de código-fonte desenvolvido **VsCode** a partir do link abaixo de acordo com o software da máquina 
 https://code.visualstudio.com/download
 <img src="https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png" alt="Vscode">
 
 
 
-5. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
+8. Logo após instalar a versão adequada ao o MySQL a partir do link abaixo clicando em **WIndows(x86, 32-bit), MSI Installer”
 https://dev.mysql.com/downloads/installer/**
    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png" alt="Texto Alternativo">
-6. Logo após clique em **No thank, just start my download**
+9. Logo após clique em **No thank, just start my download**
   
-8. Após o download clique no instalador e siga os passos abaixo para a instalação
+10. Após o download clique no instalador e siga os passos abaixo para a instalação
  <img src= "https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp" alt="Instaler">
-9. Logo após clique em “Next” novamente
+11. Logo após clique em “Next” novamente
 
-10. Logo após escolha o modo de uso do seu banco as opções são
+12. Logo após escolha o modo de uso do seu banco as opções são
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
 
