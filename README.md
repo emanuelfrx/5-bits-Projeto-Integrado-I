@@ -72,7 +72,7 @@ https://dev.mysql.com/downloads/installer/** <br>
 <p><b>Manual:</b> Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.</p>
 11. Logo após clique em <b>Next</b><br>
 12. Logo após insira a <b>Senha</b> do seu acesso  <br>
-<img src= "https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png"
+<img src= "https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png">
 13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação <br>
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png">
 14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b> <br>
