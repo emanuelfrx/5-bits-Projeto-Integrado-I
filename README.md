@@ -67,19 +67,19 @@ https://dev.mysql.com/downloads/installer/**
 12. Logo após escolha o modo de uso do seu banco as opções são
 
 <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png" alt="Passo 7">
-
-<p>**Desenvolvimento:** Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.</p>
-<p>Servidor:**Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.</p>
-<p>**Dedicado:** Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.</p>
-<p>**Manual:** Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.</p>
-11. Logo após clique em “Next “
-12. Logo após insira a “Senha” do seu acesso 
+<b></b>
+<p><b>Desenvolvimento: </b> Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.</p>
+<p><b>Servidor: </b>Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.</p>
+<p> <b>Dedicado:</b> Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.</p>
+<p><b>Manual:</b> Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis ​​do servidor incluídas no arquivo de configuração my.ini. Com o tipo Manual selecionado, o MySQL Installer usa o valor padrão de 16M para a atribuição da variável tmp_table_size.</p>
+11. Logo após clique em <b>Next</b><br>
+12. Logo após insira a <b>Senha</b> do seu acesso 
 ![passo 8](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
-13. Depois prossiga clicando em “Next” para prosseguir com a instação
+13. Depois prossiga clicando em <b>Next</b> para prosseguir com a instação
 ![next](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
 
-14. Agora insira sua senha para poder entrar no seu ambiente 
-15. Após entrar na area principal do mysql workbench voce pode clicar na aba “FIle” e clicar em “Open Model”
+14. Agora insira sua senha para poder entrar no seu ambiente <b>MySql Workbench</b>
+15. Após entrar na area principal do mysql workbench voce pode clicar na aba <b>FIle</b> e clicar em <b>Open Model</b>
 
 16. Agora insira sua senha para entrar 
 
