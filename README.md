@@ -6,27 +6,31 @@ https://www.figma.com/design/MhpQcWDmXkblj9qxGSrcbQ/5Bits---Projeto-Integrado-I-
 https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_loc=-2785%2C-662%2C3237%2C1886%2C0_0&invitationId=inv_e842866e-8460-4677-8f29-f93a44d8370f
 
 # REQUISITOS
- RF GA001 Cadastrar usuário no sistema \
- RF UP002 Cadastrar evento\
- RF UP003 Editar características do evento\
- RF UP004 Adicionar atividades no evento \
- RF UP005 Adicionar demais administradores/monitores do evento\
- RF UP006 Adicionar (por meio de uma lista importada) todos os participantes no evento em ação única\
- RF UP007 Adicionar participante único no evento\
- RF UP008 Adicionar participante em atividade específica do evento\
- RF UP009 Exportar dados dos participantes para emitir certificados\
- RF 
- RF UP010 Confirmar credenciamento do participante\
- RF UP011 Registrar presença dos participantes no evento\
- RF GA012 Verificar se participante se tornou elegível a receber o certificado\
- RF GA013 Gerar certificado com dados de cada participante\
- RF GA014 Emitir certificado de participação\
- RF US015 Notificar o usuário da emissão de certificado
+RF UP001 Autenticar Perfil do Usuário pelo Login\
+RF UP002 Adicionar demais administradores do evento\
+RF UP003 Alterar características dos Administradores\
+RF UP004 Adicionar monitores do evento\
+RF UP005 Alterar características dos monitores\
+RF UP006 Cadastrar evento\
+RF UP007 Editar características do evento\
+RF UP008 Adicionar atividades no evento\
+RF GA009 Editar características da atividade\
+RF UP010 Listar atividades de um evento\
+RF UP011 Adicionar (por meio de uma lista importada) todos os participantes no evento em ação única (acesso a todo o evento)\
+RF UP012 Adicionar participante único no evento (acesso a todo o evento)\
+RF GA013 Adicionar participante em atividade específica do evento\
+RF US014 Listar participantes do evento\
+RF GA015 Listar eventos em que um participante está cadastrado\
+RF UP016 Confirmar credenciamento do participante (checkbox)\
+RF GA017 Registrar presença dos participantes no evento por botão (checkbox)\
 
-
-# Requisitos Não Funcionais
- RNF UP016 Verificar a quantidade de vagas na sala para uma atividade\
- RNF US017 Ver o histórico de atividades em que participou
+# Requisito Não-Funcional
+RNF UP018 Verificar se participante se tornou elegível a receber o certificado\
+RNF UP019 Gerar lista de participantes e seus dados para emitir certificados\
+RNF UP020 Gerar certificado com dados de cada participante e seu ID único (usar lista do requisito anterior)\
+RNF UP021 Registrar presença por meio da leitura de um QR Code\
+RNF UP022 Definir um usuário padrão/root para cadastrar os gerenciadores\
+RNF UP023 Definir perfis de usuário: administrador e monitor\
  
 # O projeto da equipe 5Bits conta com a colaboração dos estudantes:
 
