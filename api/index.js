@@ -9,6 +9,8 @@ import adminRoutes from "./routes/admins.js"
 import authRoutes from "./routes/auth.js"
 import eventRoutes from "./routes/events.js"
 import studentsRoutes from "./routes/students.js"
+import lecturesRoutes from "./routes/lectures.js"
+import classesRoutes from "./routes/classes.js"
 
 
 //middlewares
@@ -49,6 +51,8 @@ app.use("/api/admins", adminRoutes)
 app.use("/api/events", eventRoutes)
 app.use("/api/auth", authRoutes)
 app.use("/api/students", studentsRoutes)
+app.use("/api/lectures", lecturesRoutes)
+app.use("/api/classes", classesRoutes)
 
 app.listen(8800, () => {
     console.log("Running!!!!")
