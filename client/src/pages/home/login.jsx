@@ -16,14 +16,22 @@ function Login() {
     setInputs((prev) => ({...prev, [e.target.name]: e.target.value}))
   }
   const { login } = useContext(AuthContext)
+  const {currentUser} = useContext(AuthContext)
+  const {currentMonitor} = useContext(AuthContext)
 
   const navigate = useNavigate()
 
   const handleLogin = async (e) => {
     e.preventDefault()
     try{
-      await login(inputs)
-      navigate("/home")
+      const resp = await login(inputs)
+      console.log(resp)
+      if(resp){
+        navigate("/home/dashboard")
+      }
+      else{
+        navigate("/monitor/dashboard")
+      }
     }catch(err){
       setErr(err.reponse)
       console.log(err)
