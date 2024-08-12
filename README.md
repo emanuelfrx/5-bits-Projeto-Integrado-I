@@ -22,7 +22,8 @@ RF GA013 Adicionar participante em atividade específica do evento\
 RF US014 Listar participantes do evento\
 RF GA015 Listar eventos em que um participante está cadastrado\
 RF UP016 Confirmar credenciamento do participante (checkbox)\
-RF GA017 Registrar presença dos participantes no evento por botão (checkbox)\
+RF GA017 Registrar presença dos participantes no evento por botão (checkbox)
+
 
 # Requisito Não-Funcional
 RNF UP018 Verificar se participante se tornou elegível a receber o certificado\
