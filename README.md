@@ -22,16 +22,22 @@ RF GA013 Adicionar participante em atividade específica do evento\
 RF US014 Listar participantes do evento\
 RF GA015 Listar eventos em que um participante está cadastrado\
 RF UP016 Confirmar credenciamento do participante (checkbox)\
-RF GA017 Registrar presença dos participantes no evento por botão (checkbox)
+RF GA017 Registrar presença dos participantes no evento por botão (checkbox)\
+
 
 
 # Requisito Não-Funcional
-RNF UP018 Verificar se participante se tornou elegível a receber o certificado\
-RNF UP019 Gerar lista de participantes e seus dados para emitir certificados\
-RNF UP020 Gerar certificado com dados de cada participante e seu ID único (usar lista do requisito anterior)\
-RNF UP021 Registrar presença por meio da leitura de um QR Code\
-RNF UP022 Definir um usuário padrão/root para cadastrar os gerenciadores\
-RNF UP023 Definir perfis de usuário: administrador e monitor\
+RNF UP018 Definir um usuário padrão/root para cadastrar os gerenciadores\
+RNF UP019 Definir perfis de usuário: administrador e monitor\
+RNF UP020 Verificar se participante se tornou elegível a receber o certificado\
+RNF UP021 Gerar lista de participantes e seus dados para emitir certificados\
+RNF UP022 Gerar certificado com dados de cada participante e seu ID único (usar lista do requisito anterior)\
+RNF UP023 Emitir (realizar envio) certificado de participação\
+RNF US024 Registrar presença por meio da leitura de um QR Code\
+RNF US025 Notificar o usuário da emissão de certificado\
+RNF US026 Verificar a quantidade de vagas na sala para uma atividade
+
+
  
 # O projeto da equipe 5Bits conta com a colaboração dos estudantes:
 
