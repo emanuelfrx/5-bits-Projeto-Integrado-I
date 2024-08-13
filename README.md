@@ -6,38 +6,38 @@ https://www.figma.com/design/MhpQcWDmXkblj9qxGSrcbQ/5Bits---Projeto-Integrado-I-
 https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_loc=-2785%2C-662%2C3237%2C1886%2C0_0&invitationId=inv_e842866e-8460-4677-8f29-f93a44d8370f
 
 # REQUISITOS FUNCIONAIS
-RF01 Definir um usuário padrão/root para cadastrar os administradores
-RF02 Autenticar Perfil do Usuário pelo Login
-RF03 Cadastrar evento 
-RF04 Editar características do evento
-RF05 Arquivar evento
-RF06 Adicionar lista de participantes do evento
-RF07 Adicionar demais administradores do evento
-RF08 Editar características dos demais Administradores
-RF09 Remover administrador do evento
-RF10 Adicionar atividades no evento
-RF11 Editar características de uma atividade do evento
-RF12 Visualizar lista de atividades de um evento
-RF13 Adicionar monitores do evento
-RF14 Editar características dos monitores
-RF15 Visualizar lista de participantes do evento
-RF16 Adicionar participante único no evento (com acesso a todo o evento)
-RF17 Arquivar participante
-RF18 Visualizar lista de atividades em que um participante está cadastrado
-RF19 Confirmar (por checkbox) o credenciamento do participante
-RF20 Confirmar (por checkbox) a presença dos participantes no evento
-RF21 Verificar se participante se tornou elegível a receber o certificado
-RF22 Gerar lista de participantes elegíveis a receber certificados
-RF23 Gerar certificado com dados de cada participante e seu ID único
-RF24 Registrar presença por meio da leitura de um QR Code ID
+RF01 Definir um usuário padrão/root para cadastrar os administradores\
+RF02 Autenticar Perfil do Usuário pelo Login\
+RF03 Cadastrar evento\
+RF04 Editar características do evento\
+RF05 Arquivar evento\
+RF06 Adicionar lista de participantes do evento\
+RF07 Adicionar demais administradores do evento\
+RF08 Editar características dos demais Administradores\
+RF09 Remover administrador do evento\
+RF10 Adicionar atividades no evento\
+RF11 Editar características de uma atividade do evento\
+RF12 Visualizar lista de atividades de um evento\
+RF13 Adicionar monitores do evento\
+RF14 Editar características dos monitores\
+RF15 Visualizar lista de participantes do evento\\
+RF16 Adicionar participante único no evento (com acesso a todo o evento)\
+RF17 Arquivar participante\
+RF18 Visualizar lista de atividades em que um participante está cadastrado\
+RF19 Confirmar (por checkbox) o credenciamento do participante\
+RF20 Confirmar (por checkbox) a presença dos participantes no evento\
+RF21 Verificar se participante se tornou elegível a receber o certificado\
+RF22 Gerar lista de participantes elegíveis a receber certificados\
+RF23 Gerar certificado com dados de cada participante e seu ID único\
+RF24 Registrar presença por meio da leitura de um QR Code ID\
 # Requisito Não  Funcional
-RNF25 Ser acessível através de navegadores modernos
-RNF26 Suportar importação de listas
-RNF27 Notificar o usuário da emissão de certificado
-RNF28 Garantir segurança dos dados
-RNF29 Ser amigável e intuitivo
-RNF30 Garantir integridade dos dados
-RNF31 Ter alta disponibilidade
+RNF25 Ser acessível através de navegadores modernos\
+RNF26 Suportar importação de listas\
+RNF27 Notificar o usuário da emissão de certificado\
+RNF28 Garantir segurança dos dados\
+RNF29 Ser amigável e intuitivo\
+RNF30 Garantir integridade dos dados\
+RNF31 Ter alta disponibilidade\
 RNF32 Ser escalável
 
 
