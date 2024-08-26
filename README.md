@@ -20,7 +20,7 @@ RF11 Editar características de uma atividade do evento\
 RF12 Visualizar lista de atividades de um evento\
 RF13 Adicionar monitores do evento\
 RF14 Editar características dos monitores\
-RF15 Visualizar lista de participantes do evento\\
+RF15 Visualizar lista de participantes do evento\
 RF16 Adicionar participante único no evento (com acesso a todo o evento)\
 RF17 Arquivar participante\
 RF18 Visualizar lista de atividades em que um participante está cadastrado\
