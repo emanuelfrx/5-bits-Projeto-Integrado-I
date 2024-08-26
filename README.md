@@ -29,7 +29,8 @@ RF20 Confirmar (por checkbox) a presença dos participantes no evento\
 RF21 Verificar se participante se tornou elegível a receber o certificado\
 RF22 Gerar lista de participantes elegíveis a receber certificados\
 RF23 Gerar certificado com dados de cada participante e seu ID único\
-RF24 Registrar presença por meio da leitura de um QR Code ID\
+RF24 Registrar presença por meio da leitura de um QR Code ID
+
 # Requisito Não  Funcional
 RNF25 Ser acessível através de navegadores modernos\
 RNF26 Suportar importação de listas\
