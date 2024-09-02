@@ -9,6 +9,9 @@ import adminRoutes from "./routes/admins.js"
 import authRoutes from "./routes/auth.js"
 import eventRoutes from "./routes/events.js"
 import studentsRoutes from "./routes/students.js"
+import lecturesRoutes from "./routes/lectures.js"
+import classesRoutes from "./routes/classes.js"
+import studentslecRoutes from "./routes/studentslec.js"
 
 
 //middlewares
@@ -38,8 +41,6 @@ const upload = multer({ storage: storage })
 
 app.post("/api/upload", upload.single("file"), (req, res) => {
     const file = req.file
-
-    console.log(file)
     res.status(200).json(file.filename)
 })
 
@@ -49,6 +50,9 @@ app.use("/api/admins", adminRoutes)
 app.use("/api/events", eventRoutes)
 app.use("/api/auth", authRoutes)
 app.use("/api/students", studentsRoutes)
+app.use("/api/lectures", lecturesRoutes)
+app.use("/api/classes", classesRoutes)
+app.use("/api/studentslec", studentslecRoutes)
 
 app.listen(8800, () => {
     console.log("Running!!!!")
