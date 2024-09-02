@@ -11,38 +11,13 @@ import Profile from './pages/dashboard/profile';
 import Events from './pages/dashboard/events';
 import EventForm from './pages/dashboard/event_form';
 import NewStudent from './pages/home/newstudent';
-import Users from './pages/dashboard/users';
-
-//Monitor
-import HomeMonitor from './pages/monitor/layout';
-import MonitorEvents from './pages/monitor/monitorevents';
-import MonitorIndex from './pages/monitor';
-
-//template
-import ThemeProvider from './components/template/utils/ThemeContext';
-
 import { AuthContext, AuthContextProvider } from './context/authContext';
-import StudentsForm from './pages/dashboard/addstudents';
-import PresenceEvents from './pages/dashboard/presences_events';
-import PresenceLectures from './pages/dashboard/presences_lectures';
-import PresenceStudents from './pages/dashboard/presences_students';
 
-const ProtectedRouteAdmin = ({children}) => {
+const ProtectedRoute = ({children}) => {
 
   const {currentUser} = useContext(AuthContext)
 
   if(!currentUser){
-    return <Navigate to="/login" />
-  }
-
-  return children
-}
-
-const ProtectedRouteMonitor = ({children}) => {
-
-  const {currentMonitor} = useContext(AuthContext)
-
-  if(!currentMonitor){
     return <Navigate to="/login" />
   }
 
@@ -67,10 +42,10 @@ const router = createBrowserRouter([
       },
       {
         path:"home",
-        element: <ProtectedRouteAdmin><ThemeProvider><HomeAdmin/></ThemeProvider></ProtectedRouteAdmin>,
+        element: <ProtectedRoute><HomeAdmin/></ProtectedRoute>,
         children: [
           {
-            path: "dashboard",
+            path: "",
             element: <HomeIndex />
           },
           {
@@ -84,40 +59,6 @@ const router = createBrowserRouter([
           {
             path: "addevent",
             element: <EventForm />
-          },
-          {
-            path: "users",
-            element: <Users />
-          },
-          {
-            path: "addstudents",
-            element: <StudentsForm />
-          },
-          {
-            path:"presences",
-            element: <PresenceEvents/>
-          },
-          {
-            path:"presences_lectures/:idevent",
-            element: <PresenceLectures/>
-          },
-          {
-            path:"presences_students/:idevent/:idclass",
-            element: <PresenceStudents/>
-          }
-        ]
-      },
-      {
-        path:"monitor",
-        element: <ProtectedRouteMonitor><ThemeProvider><HomeMonitor/></ThemeProvider></ProtectedRouteMonitor>,
-        children: [
-          {
-            path: "dashboard",
-            element: <MonitorIndex />
-          },
-          {
-            path: "events",
-            element: <MonitorEvents />
           }
         ]
       }
@@ -131,7 +72,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <AuthContextProvider>
-        <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </AuthContextProvider>
   </React.StrictMode>
 );
