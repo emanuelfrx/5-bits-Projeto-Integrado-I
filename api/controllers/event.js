@@ -9,37 +9,13 @@ export const getEvents = (req, res) => {
     if (!token) return res.status(401).json("Not logged in!")
 
     jwt.verify(token, "secretkey", (err, adminInfo) => {
-        if (err) return res.status(403).json("Token is not valid!")
+        if (err) return res.status(403).son("Token is not valid!")
 
-        //if (adminInfo.role != 0) return res.status(403).json("User have not permision")
-        // verificar a escolha de ser apenas para o admin que cadastrou
         const q = `SELECT * FROM events AS e WHERE ? = e.adminid`
 
         db.query(q, [adminInfo.id], (err, data) => {
             if (err) return res.status(500).json(err)
             return res.status(200).json(data)
-        })
-
-    })
-
-}
-
-export const getEvent = (req, res) => {
-
-    const token = req.cookies.accessToken;
-
-    if (!token) return res.status(401).json("Not logged in!")
-
-    jwt.verify(token, "secretkey", (err, adminInfo) => {
-        if (err) return res.status(403).json("Token is not valid!")
-
-        //if (adminInfo.role != 0) return res.status(403).json("User have not permision")
-
-        const q = `SELECT * FROM events AS e WHERE ? = e.idevent`
-
-        db.query(q, [req.params.idevent], (err, data) => {
-            if (err) return res.status(500).json(err)
-            return res.status(200).json(data[0])
         })
 
     })
@@ -53,9 +29,7 @@ export const addEvent = (req, res) => {
     if (!token) return res.status(401).json("Not logged in!")
 
     jwt.verify(token, "secretkey", (err, adminInfo) => {
-        if (err) return res.status(403).json("Token is not valid!")
-        
-        if (adminInfo.role == 0) return res.status(403).json("User have not permision")
+        if (err) return res.status(403).son("Token is not valid!")
 
         const q = "INSERT INTO events (`title`, `desc`, `tag_link`, `img_event`, `createdAt`, `adminid`) VALUES (?)"
 
@@ -79,25 +53,18 @@ export const addEvent = (req, res) => {
 
 export const checkEvent = (req, res) => {
 
-    const token = req.cookies.accessToken;
+    const q = `SELECT * FROM events AS e WHERE ? = e.tag_link`
 
-    if (!token) return res.status(401).json("Not logged in!")
+    //Necessary Defense Bad Requests
 
-    jwt.verify(token, "secretkey", (err, adminInfo) => {
-        if (err) return res.status(403).json("Token is not valid!")
+    db.query(q, req.body.tag_link, (err, data) => {
+        if (err) return res.status(500).json(req.body)
 
-        const q = `SELECT * FROM events AS e WHERE ? = e.tag_link`
+        if(data.length <= 0) return res.status(404).json("Tag Link not found!")
 
-        //Necessary Defense Bad Requests
-
-        db.query(q, req.body.tag_link, (err, data) => {
-            if (err) return res.status(500).json(req.body)
-
-            if (data.length <= 0) return res.status(404).json("Tag Link not found!")
-
-            return res.status(200).json(data[0])
-        })
-
+        return res.status(200).json(data[0])
     })
+
+
 
 }
