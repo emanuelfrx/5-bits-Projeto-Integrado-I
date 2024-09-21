@@ -106,7 +106,7 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 
 2. **Criar um Novo Banco de Dados**:
    - Clique com o botão direito em "Schemas" e selecione "Create Schema".
-   ![Criar Novo Banco de Dados]([https://example.com/image1.jpg](https://phoenixnap.com/kb/wp-content/uploads/2021/04/workbench-create-schema.png))
+   ![Criar Novo Banco de Dados](https://phoenixnap.com/kb/wp-content/uploads/2021/04/workbench-create-schema.png)
 
 3. **Acesse o Menu de Importação**:
    - Com o banco de dados selecionado, vá para o menu no topo e clique em `Server > Data Import`.
@@ -115,12 +115,12 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 4. **Escolha o Método de Importação**:
    - Selecione a opção **"Import from Self-Contained File"**.
    - Clique em `Browse` e navegue até o arquivo `.sql` que você deseja importar.
-   ![Escolher Método de Importação]([https://example.com/image4.jpg](https://docs.aws.amazon.com/pt_br/lightsail/latest/userguide/images/amazon-lightsail-import-from-self-contained-file.png))
+   ![Escolher Método de Importação](https://docs.aws.amazon.com/pt_br/lightsail/latest/userguide/images/amazon-lightsail-import-from-self-contained-file.png)
 
 5. **Defina as Opções de Importação**:
    - Na seção **Default Target Schema**, selecione o banco de dados onde você deseja importar os dados. Se você não tiver um, você pode criar um novo aqui.
    - Certifique-se de que a opção **"Dump Structure and Data"** esteja selecionada, se você deseja importar tanto a estrutura quanto os dados.
-   ![Definir Opções de Importação]([https://example.com/image5.jpg](https://docs.aws.amazon.com/pt_br/lightsail/latest/userguide/images/amazon-lightsail-default-schema-to-import-to.png))
+   ![Definir Opções de Importação](https://docs.aws.amazon.com/pt_br/lightsail/latest/userguide/images/amazon-lightsail-default-schema-to-import-to.png)
 
 6. **Inicie a Importação**:
    - Clique no botão **Start Import** na parte inferior da tela.
