@@ -97,9 +97,8 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
     ![Passo 9](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
 16. Agora insira sua senha para entrar no seu ambiente **MySQL Workbench**  
     ![MySQL Workbench](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGPqlGbSMQqL7a-NNEC2uvhVa85nLLMZ3yuTccCrhyFMzXZFQpNhgHTKVDHX5p_l0na2zWLS38QS-z8NjTMPqX83M1F3kD5vmmBBaA6cjv9GiBwbTugwvFoX-pmHng2zkKj6ECXGAuGX4/s640/2017-09-03+18_17_47-Greenshot.png)
-17. Após entrar na área principal do MySQL Workbench, você pode clicar na aba **File** e em seguida em **Open Model**.
-18. Agora insira sua senha para entrar.
 
+# importando banco de dados
 1. **Abra o MySQL Workbench**:
    - Inicie o MySQL Workbench e conecte-se ao seu servidor MySQL usando suas credenciais.
    ![Abrir MySQL Workbench]()
