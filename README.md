@@ -61,7 +61,7 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 - Eugênio Vitor da Silva Nascimento
 - Guilherme Ferreira Gomes
 
-# Instalação e Execução do Projeto 
+# Instalação Node JS
 
 **Tutorial v1**
 
@@ -76,26 +76,29 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
    ![Passo 4](https://www.alura.com.br/artigos/assets/como-instalar-node-js-windows-linux-macos/imagem7.jpg)
 6. Para verificar se o Node foi realmente instalado na sua máquina, abra o cmd com o comando **Windows + R**, digite **cmd** e em seguida digite o comando `node --version`  
    ![Passo 5](https://github.com/user-attachments/assets/43f2e789-2fe8-4ddc-aba3-d22c168ccb66)
-7. Instale o editor de código-fonte **VsCode** a partir do link abaixo, de acordo com o software da máquina: [VS Code Download](https://code.visualstudio.com/download)  
+
+# Instalação VScode
+1. Instale o editor de código-fonte **VsCode** a partir do link abaixo, de acordo com o software da máquina: [VS Code Download](https://code.visualstudio.com/download)  
    ![VSCode](https://hub.asimov.academy/wp-content/uploads/2024/02/downloadvscode-1-1024x634.png)
-8. Instale a versão adequada do MySQL a partir do link abaixo clicando em **Windows(x86, 32-bit), MSI Installer**: [MySQL Installer Download](https://dev.mysql.com/downloads/installer/)  
+# Instalação Banco de Dados
+1. Instale a versão adequada do MySQL a partir do link abaixo clicando em **Windows(x86, 32-bit), MSI Installer**: [MySQL Installer Download](https://dev.mysql.com/downloads/installer/)  
    ![MySQL Installer](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_4.png)
-9. Clique em **No thank, just start my download**.
-10. Após o download, clique no instalador e siga os passos abaixo para a instalação  
+2. Clique em **No thank, just start my download**.
+3. Após o download, clique no instalador e siga os passos abaixo para a instalação  
     ![Instalador](https://programadorviking.com.br/wp-content/webp-express/webp-images/uploads/2019/03/como-instalar-mysql-windows-linux-macos-01.png.webp)
-11. Clique em **Next** novamente.
-12. Escolha o modo de uso do seu banco. As opções são:  
+4. Clique em **Next** novamente.
+5. Escolha o modo de uso do seu banco. As opções são:  
     ![Passo 7](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_9.png)
     - **Desenvolvimento**: Um computador que hospeda muitos outros aplicativos e normalmente é sua estação de trabalho pessoal. Esta configuração configura o MySQL para usar a menor quantidade de memória.
     - **Servidor**: Espera-se que vários outros aplicativos sejam executados neste computador, como um servidor web. A configuração Servidor configura o MySQL para usar uma quantidade média de memória.
     - **Dedicado**: Um computador dedicado à execução do servidor MySQL. Como nenhum outro aplicativo importante é executado neste servidor, esta configuração configura o MySQL para usar a maior parte da memória disponível.
     - **Manual**: Impede que o MySQL Installer tente otimizar a instalação do servidor e, em vez disso, define os valores padrão para as variáveis do servidor incluídas no arquivo de configuração my.ini.
-13. Clique em **Next**.
-14. Insira a **Senha** do seu acesso  
+6. Clique em **Next**.
+7. Insira a **Senha** do seu acesso  
     ![Passo 8](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
-15. Prossiga clicando em **Next** para continuar com a instalação  
+8. Prossiga clicando em **Next** para continuar com a instalação  
     ![Passo 9](https://www.simplilearn.com/ice9/free_resources_article_thumb/MySQL_10.png)
-16. Agora insira sua senha para entrar no seu ambiente **MySQL Workbench**  
+9. Agora insira sua senha para entrar no seu ambiente **MySQL Workbench**  
     ![MySQL Workbench](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGPqlGbSMQqL7a-NNEC2uvhVa85nLLMZ3yuTccCrhyFMzXZFQpNhgHTKVDHX5p_l0na2zWLS38QS-z8NjTMPqX83M1F3kD5vmmBBaA6cjv9GiBwbTugwvFoX-pmHng2zkKj6ECXGAuGX4/s640/2017-09-03+18_17_47-Greenshot.png)
 
 # importando banco de dados
