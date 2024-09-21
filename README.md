@@ -132,20 +132,20 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 # Clonar o Repositório
 
 Abra o terminal e clone o repositório do projeto que contém a API e o cliente. Substitua `URL_DO_REPOSITORIO` pela URL real.
-1. **Crie uma pasta e abra o git bash**
+1. **Crie uma pasta e abra o git bash**:
    -git clone https://github.com/emanuelfrx/5-bits-Projeto-Integrado-I
    -cd NOME_DO_REPOSITORIO
    -code .
-2. **Entre da pasta api**
-   -cd api
-3. **Instale as dependencias usando npm**
-   -npm install
-4. **Rode a api**
-   -npm start
-5. **Navegar até a Área do Cliente**
-  - Adicione um novo terminal
-  - cd cliente
-6. **Instale as dependências**
- - npm install
-7. **Rode o client**
- - npm run dev
+2. **Entre da pasta api**:
+   -cd api.
+3. **Instale as dependencias usando npm**:
+   -npm install.
+4. **Rode a api**:
+   -npm start.
+5. **Navegar até a Área do Cliente**:
+  - Adicione um novo terminal.
+  - cd cliente.
+6. **Instale as dependências**:
+ - npm install.
+7. **Rode o client**:
+ - npm run dev:
