@@ -4,31 +4,15 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
 https://www.figma.com/design/MhpQcWDmXkblj9qxGSrcbQ/5Bits---Projeto-Integrado-I---2024.1?node-id=0-1&t=GhCOcYhp2jbqkBk8-1
 # Modelo conceitual
 https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_loc=-2814%2C-802%2C4992%2C2343%2C0_0&invitationId=inv_e842866e-8460-4677-8f29-f93a44d8370f
-# REQUISITOS FUNCIONAIS
-RF01 Definir um usuário padrão/root para cadastrar os administradores\
-RF02 Autenticar Perfil do Usuário pelo Login\
-RF03 Cadastrar evento\
-RF04 Editar características do evento\
-RF05 Arquivar evento\
-RF06 Adicionar lista de participantes do evento\
-RF07 Adicionar demais administradores do evento\
-RF08 Editar características dos demais Administradores\
-RF09 Remover administrador do evento\
-RF10 Adicionar atividades no evento\
-RF11 Editar características de uma atividade do evento\
-RF12 Visualizar lista de atividades de um evento\
-RF13 Adicionar monitores do evento\
-RF14 Editar características dos monitores\
-RF15 Visualizar lista de participantes do evento\
-RF16 Adicionar participante único no evento (com acesso a todo o evento)\
-RF17 Arquivar participante\
-RF18 Visualizar lista de atividades em que um participante está cadastrado\
-RF19 Confirmar (por checkbox) o credenciamento do participante\
-RF20 Confirmar (por checkbox) a presença dos participantes no evento\
-RF21 Verificar se participante se tornou elegível a receber o certificado\
-RF22 Gerar lista de participantes elegíveis a receber certificados\
-RF23 Gerar certificado com dados de cada participante e seu ID único\
-RF24 Registrar presença por meio da leitura de um QR Code ID
+| ID   | Requisito Funcional                                         | Concluído |
+|------|-----------------------------------------------------------|-----------|
+| RF01 | Definir um usuário padrão/root para cadastrar os administradores | [ ]       |
+| RF02 | Editar características dos demais Administradores         | [ ]       |
+| RF03 | Autenticar Perfil do Usuário pelo Login                   | [ ]       |
+| RF04 | Cadastrar evento                                           | [ ]       |
+| RF05 | Editar características do evento                           | [ ]       |
+| RF06 | Arquivar evento                                           | [ ]       |
+| RF07 | Adicionar atividades no evento                             | [ ]       |
 
 # Requisito Não  Funcional
 RNF25 Ser acessível através de navegadores modernos\
