@@ -101,7 +101,7 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 9. Agora insira sua senha para entrar no seu ambiente **MySQL Workbench**  
     ![MySQL Workbench](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGPqlGbSMQqL7a-NNEC2uvhVa85nLLMZ3yuTccCrhyFMzXZFQpNhgHTKVDHX5p_l0na2zWLS38QS-z8NjTMPqX83M1F3kD5vmmBBaA6cjv9GiBwbTugwvFoX-pmHng2zkKj6ECXGAuGX4/s640/2017-09-03+18_17_47-Greenshot.png)
 
-# importando banco de dados
+# Importar banco de dados
 1. **Abra o MySQL Workbench**:
    - Inicie o MySQL Workbench e conecte-se ao seu servidor MySQL usando suas credenciais.
    ![Abrir MySQL Workbench]()
@@ -132,7 +132,7 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
    - Após a conclusão da importação, verifique se as tabelas e os dados foram importados corretamente. No painel à esquerda, expanda seu banco de dados para visualizar as tabelas.
 
 
-# Clonar o Repositório
+# Clonar o Repositório e Executar Projeto
 
 Abra o terminal e clone o repositório do projeto que contém a API e o cliente. Substitua `URL_DO_REPOSITORIO` pela URL real.
 1. **Crie uma pasta e abra o git bash para digitar os seguintes códigos**:
