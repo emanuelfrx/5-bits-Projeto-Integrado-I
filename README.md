@@ -39,14 +39,17 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 
 
 # Requisito Não  Funcional
-RNF25 Ser acessível através de navegadores modernos\
-RNF26 Suportar importação de listas\
-RNF27 Notificar o usuário da emissão de certificado\
-RNF28 Garantir segurança dos dados\
-RNF29 Ser amigável e intuitivo\
-RNF30 Garantir integridade dos dados\
-RNF31 Ter alta disponibilidade\
-RNF32 Ser escalável
+| Requisito Não Funcional                               | Descrição                                                                                                       |
+|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| <ul><li>[x] RNF29</li></ul>                          | Ser acessível através de navegadores modernos.                                                                |
+| <ul><li>[x] RNF30</li></ul>                          | Suportar importação de listas.                                                                                 |
+| <ul><li>[x] RNF31</li></ul>                          | Notificar o usuário da emissão de certificado.                                                                |
+| <ul><li>[x] RNF32</li></ul>                          | Garantir segurança dos dados.                                                                                  |
+| <ul><li>[x] RNF33</li></ul>                          | Ser amigável e intuitivo.                                                                                     |
+| <ul><li>[x] RNF34</li></ul>                          | Garantir integridade dos dados.                                                                                |
+| <ul><li>[x] RNF35</li></ul>                          | Ter alta disponibilidade.                                                                                      |
+| <ul><li>[x] RNF36</li></ul>                          | Ser escalável.                                                                                                |
+
 
 
  
