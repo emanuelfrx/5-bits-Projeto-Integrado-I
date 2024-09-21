@@ -143,10 +143,10 @@ Abra o terminal e clone o repositório do projeto que contém a API e o cliente.
 4. **Rode a api**:
    - npm start.
 5. **Navegar até a Área do Cliente**:
-  - Adicione um novo terminal.
-  - cd cliente.
+   - Adicione um novo terminal.
+   -  cd cliente.
 6. **Instale as dependências**:
-  - npm install.
-7. **Rode o client**:
-  - npm run dev:
+   - npm install.
+8. **Rode o client**:
+   - npm run dev:
 
