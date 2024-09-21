@@ -4,93 +4,37 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
 https://www.figma.com/design/MhpQcWDmXkblj9qxGSrcbQ/5Bits---Projeto-Integrado-I---2024.1?node-id=0-1&t=GhCOcYhp2jbqkBk8-1
 # Modelo conceitual
 https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_loc=-2814%2C-802%2C4992%2C2343%2C0_0&invitationId=inv_e842866e-8460-4677-8f29-f93a44d8370f
-- [x] **RF01**: Definir um usuário padrão/root para cadastrar os administradores  
-  Permitir aos desenvolvedores a criação de um usuário root, com permissões para cadastrar, gerenciar e remover os primeiros administradores.
+| Requisito Funcional                                    | Descrição                                                                                                       |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| <ul><li>[x] RF01</li></ul>                            | Permitir aos desenvolvedores a criação de um usuário root, com permissões para cadastrar, gerenciar e remover os primeiros administradores. |
+| <ul><li>[x] RF02</li></ul>                            | Permitir ao usuário root editar detalhes dos administradores.                                                |
+| <ul><li>[x] RF03</li></ul>                            | Permitir aos administradores e monitores do evento autentiquem-se pelo login com nome, senha e cargo.          |
+| <ul><li>[x] RF04</li></ul>                            | Permitir ao administrador do evento o cadastro de um novo evento no sistema com campos de título, data de início e de fim, descrição, adicionar atividades, adicionar administradores e adicionar participantes. |
+| <ul><li>[x] RF05</li></ul>                            | Permitir ao administrador do evento editar nome, lista de participantes e duração do evento.                   |
+| <ul><li>[x] RF06</li></ul>                            | Permitir ao administrador do evento arquive eventos sem sua exclusão.                                         |
+| <ul><li>[x] RF07</li></ul>                            | Permitir aos administradores do evento adicionar atividades com dias em que será ministrada, horários, palestrantes/instrutores e foto dos instrutores. |
+| <ul><li>[x] RF08</li></ul>                            | Permitir ao administrador do evento e do sistema adicionar administradores ao evento.                          |
+| <ul><li>[x] RF09</li></ul>                            | Permitir aos administradores do evento e do sistema a exclusão de outros administradores de um evento.        |
+| <ul><li>[x] RF10</li></ul>                            | Permitir ao administrador do evento adicione monitores ao evento.                                            |
+| <ul><li>[x] RF11</li></ul>                            | Permitir ao administrador do evento edite detalhes dos monitores do evento.                                   |
+| <ul><li>[x] RF12</li></ul>                            | Permitir aos administradores e monitores do evento listem todos os eventos e verifiquem se estão ativos.     |
+| <ul><li>[x] RF13</li></ul>                            | Permitir aos administradores do evento editar detalhes das atividades do evento, como dias, horários e palestrantes. |
+| <ul><li>[x] RF14</li></ul>                            | Permitir ao administrador do evento ver atividades nas quais um participante está inscrito.                     |
+| <ul><li>[x] RF15</li></ul>                            | Permitir ao administrador do evento adicione, por meio da importação de um arquivo csv, todos os participantes no evento em ação única (terão acesso a todo o evento). |
+| <ul><li>[x] RF16</li></ul>                            | Permitir ao administrador do evento adicionar um participante unitário com acesso total ao evento.            |
+| <ul><li>[x] RF17</li></ul>                            | Permitir ao administrador do evento incluir a matrícula ao adicionar um participante unitário.                 |
+| <ul><li>[x] RF18</li></ul>                            | Permitir ao administrador do evento visualize todos os participantes que se inscreveram no evento.            |
+| <ul><li>[x] RF19</li></ul>                            | Permitir ao administrador do evento arquivar participantes sem excluir suas informações do sistema.           |
+| <ul><li>[x] RF20</li></ul>                            | Permitir ao administrador do evento associar estudante a uma determinada atividade do evento.                 |
+| <ul><li>[x] RF21</li></ul>                            | Permitir aos administradores e monitores do evento confirmar o credenciamento do participante por checkbox.    |
+| <ul><li>[x] RF22</li></ul>                            | Permitir aos administradores e monitores do evento confirmar a presença dos participantes por checkbox.        |
+| <ul><li>[x] RF23</li></ul>                            | Permitir ao sistema que contabilize uma pessoa na lista total de participantes do evento se ela esteve presente em uma das atividades. |
+| <ul><li>[x] RF24</li></ul>                            | Permitir listar e indicar numericamente a quantidade de pessoas totais que compareceram àquele evento.        |
+| <ul><li>[x] RF25</li></ul>                            | Permitir ao participante do evento registrar a presença usando leitura de QR Code.                             |
+| <ul><li>[x] RF26</li></ul>                            | Permitir ao administrador do evento verificar se o participante é elegível para receber o certificado.         |
+| <ul><li>[x] RF27</li></ul>                            | Permitir ao administrador do evento gerar a lista de participantes elegíveis para certificados com nome e matrícula. |
+| <ul><li>[x] RF28</li></ul>                            | Permitir ao administrador do evento gerar certificados com dados e ID único dos participantes.                 |
 
-- [x] **RF02**: Editar características dos demais Administradores  
-  Permitir ao usuário root editar detalhes dos administradores.
-
-- [x] **RF03**: Autenticar Perfil do Usuário pelo Login  
-  Permitir aos administradores e monitores do evento autentiquem-se pelo login com nome, senha e cargo.
-
-- [x] **RF04**: Cadastrar evento  
-  Permitir ao administrador do evento o cadastro de um novo evento no sistema com campos de título, data de início e de fim, descrição, adicionar atividades, adicionar administradores e adicionar participantes.
-
-- [x] **RF05**: Editar características do evento  
-  Permitir ao administrador do evento editar nome, lista de participantes e duração do evento.
-
-- [x] **RF06**: Arquivar evento  
-  Permitir ao administrador do evento arquive eventos sem sua exclusão.
-
-- [x] **RF07**: Adicionar atividades no evento  
-  Permitir aos administradores do evento adicionar atividades com dias em que será ministrada, horários, palestrantes/instrutores e foto dos instrutores.
-
-- [x] **RF08**: Adicionar demais administradores do evento  
-  Permitir ao administrador do evento e do sistema adicionar administradores ao evento.
-
-- [x] **RF09**: Remover administrador do evento  
-  Permitir aos administradores do evento e do sistema a exclusão de outros administradores de um evento.
-
-- [x] **RF10**: Adicionar monitores do evento  
-  Permitir ao administrador do evento adicione monitores ao evento.
-
-- [x] **RF11**: Editar características dos monitores  
-  Permitir ao administrador do evento edite detalhes dos monitores do evento.
-
-- [x] **RF12**: Listar atividades de um evento  
-  Permitir aos administradores e monitores do evento listem todos os eventos e verifiquem se estão ativos.
-
-- [x] **RF13**: Editar características de uma atividade do evento  
-  Permitir aos administradores do evento editar detalhes das atividades do evento, como dias, horários e palestrantes.
-
-- [x] **RF14**: Visualizar lista de atividades em que um participante está cadastrado  
-  Permitir ao administrador do evento ver atividades nas quais um participante está inscrito.
-
-- [x] **RF15**: Adicionar lista de participantes do evento  
-  Permitir ao administrador do evento adicione, por meio da importação de um arquivo csv, todos os participantes no evento em ação única (terão acesso a todo o evento).
-
-- [x] **RF16**: Adicionar participante único no evento (com acesso a todo o evento)  
-  Permitir ao administrador do evento adicionar um participante unitário com acesso total ao evento.
-
-- [x] **RF17**: Incluir matrícula do participante, se for um aluno da UFC.  
-  Permitir ao administrador do evento incluir a matrícula ao adicionar um participante unitário.
-
-- [x] **RF18**: Listar participantes inscritos no evento  
-  Permitir ao administrador do evento visualize todos os participantes que se inscreveram no evento.
-
-- [x] **RF19**: Arquivar participante  
-  Permitir ao administrador do evento arquivar participantes sem excluir suas informações do sistema.
-
-- [x] **RF20**: Associar estudante a uma atividade  
-  Permitir ao administrador do evento associar estudante a uma determinada atividade do evento.
-
-- [x] **RF21**: Confirmar (por checkbox) o credenciamento do participante  
-  Permitir aos administradores e monitores do evento confirmar o credenciamento do participante por checkbox.
-
-- [x] **RF22**: Confirmar (por checkbox) a presença dos participantes no evento  
-  Permitir aos administradores e monitores do evento confirmar a presença dos participantes por checkbox.
-
-- [x] **RF23**: Registrar presença de um participante no evento se ele tiver estado presente em alguma atividade  
-  Permitir ao sistema que contabilize uma pessoa na lista total de participantes do evento se ela esteve presente em uma das atividades.
-
-- [x] **RF24**: Listar (indicando a quantidade numericamente) participantes presentes ao total que compareceram em algum momento no evento  
-  Permitir listar e indicar numericamente a quantidade de pessoas totais que compareceram àquele evento.
-
-- [x] **RF25**: Registrar presença por meio da leitura de um QR Code  
-  Permitir ao participante do evento registrar a presença usando leitura de QR Code.
-
-- [x] **RF26**: Verificar se participante se tornou elegível a receber o certificado  
-  Permitir ao administrador do evento verificar se o participante é elegível para receber o certificado.
-
-- [x] **RF27**: Listar participantes elegíveis a receber certificados  
-  Permitir ao administrador do evento gerar a lista de participantes elegíveis para certificados com nome e matrícula.
-
-- [x] **RF28**: Gerar certificado com dados de cada participante e seu ID único  
-  Permitir ao administrador do evento gerar certificados com dados e ID único dos participantes.
-
-| <ul><li>[X] RF01</li></ul> | \[Descrição do requisito funcional 1\] |
-| <ul><li>[ ] RF02</li></ul> | \[Descrição do requisito funcional 2\] |
-| <ul><li>[ ] RF03</li></ul> | \[Descrição do requisito funcional 3\] |
 
 # Requisito Não  Funcional
 RNF25 Ser acessível através de navegadores modernos\
