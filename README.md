@@ -4,6 +4,7 @@ Repositório destinado a criação, desenvolvimento e atualização de uma aplic
 https://www.figma.com/design/MhpQcWDmXkblj9qxGSrcbQ/5Bits---Projeto-Integrado-I---2024.1?node-id=0-1&t=GhCOcYhp2jbqkBk8-1
 # Modelo conceitual
 https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_loc=-2814%2C-802%2C4992%2C2343%2C0_0&invitationId=inv_e842866e-8460-4677-8f29-f93a44d8370f
+# Requisito funcional
 | Requisito Funcional                                    | Descrição                                                                                                       |
 |-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <ul><li>[x] RF01</li></ul>                            | Definir um usuário padrão/root para cadastrar os administradores.                                              |
