@@ -88,6 +88,9 @@ https://lucid.app/lucidchart/4c3b7861-ba0c-4f7b-a399-a15e026887a7/edit?viewport_
 - [x] **RF28**: Gerar certificado com dados de cada participante e seu ID único  
   Permitir ao administrador do evento gerar certificados com dados e ID único dos participantes.
 
+| <ul><li>[X] RF01</li></ul> | \[Descrição do requisito funcional 1\] |
+| <ul><li>[ ] RF02</li></ul> | \[Descrição do requisito funcional 2\] |
+| <ul><li>[ ] RF03</li></ul> | \[Descrição do requisito funcional 3\] |
 
 # Requisito Não  Funcional
 RNF25 Ser acessível através de navegadores modernos\
