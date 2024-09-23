@@ -55,11 +55,11 @@ export const getClass = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-        const q = `SELECT * FROM classes AS c LEFT JOIN lectures AS l on c.lectureid = l.idlecture LEFT JOIN events AS e on l.eventid = e.idevent WHERE ? = c.idclass`
+        const q = `SELECT * FROM classes AS c LEFT JOIN lectures AS l on c.lectureid = l.idlecture WHERE ? = c.idclass`
 
         db.query(q, [req.params.idclass], (err, data) => {
             if (err) return res.status(500).json(err)
-            return res.status(200).json(data)
+            return res.status(200).json(data[0])
         })
 
     })

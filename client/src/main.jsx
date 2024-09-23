@@ -27,6 +27,9 @@ import PresenceEvents from './pages/dashboard/presences_events';
 import PresenceLectures from './pages/dashboard/presences_lectures';
 import PresenceStudents from './pages/dashboard/presences_students';
 import EventUpdate from './pages/dashboard/event_update';
+import Certificates from './pages/dashboard/certificates';
+import EventForm2 from './pages/dashboard/event_form_2';
+import EventForm3 from './pages/dashboard/event_form_3';
 
 const ProtectedRouteAdmin = ({children}) => {
 
@@ -87,6 +90,14 @@ const router = createBrowserRouter([
             element: <EventForm />
           },
           {
+            path: "addevent2/:idevent",
+            element: <EventForm2 />
+          },
+          {
+            path: "addevent3/:idevent",
+            element: <EventForm3 />
+          },
+          {
             path: "users",
             element: <Users />
           },
@@ -103,12 +114,16 @@ const router = createBrowserRouter([
             element: <PresenceLectures/>
           },
           {
-            path:"events_students/:idlecture/:idclass",
+            path:"events_students/:idevent/:idlecture/:idclass",
             element: <PresenceStudents/>
           },
           {
             path:"updateevent/:idevent",
             element:<EventUpdate/>
+          },
+          {
+            path:"certification_students/:idevent/:idlecture",
+            element: <Certificates/>
           }
         ]
       },

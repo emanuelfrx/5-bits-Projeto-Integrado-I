@@ -161,7 +161,7 @@ export default function ModalLecture(props) {
                                         <label>Nova Aula</label>
                                         <div className="flex items-center space-x-2 mt-2">
                                             <input id="addclass" onChange={handleChangeClass} type="text" className="flex-1 h-10 rounded px-4 w-full dark:bg-gray-700/60" />
-                                            <button onClick={handleAddClass} type="button" className="bg-violet-500 hover:bg-violet-700 text-white font-bold p-2 rounded-full"><Plus /></button>
+                                            <button onClick={handleAddClass} type="button" className="bg-secondary-500 hover:bg-secondary-700 text-white font-bold p-2 rounded-full"><Plus /></button>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +177,7 @@ export default function ModalLecture(props) {
                                             <label>Aula Adicionada</label>
                                             <div className="flex items-center mt-1 gap-x-1">
                                                 <input disabled type="text" value={item.title} className="flex-1 h-10 rounded px-4 w-full dark:bg-gray-700/60" />
-                                                <button onClick={() => { handleEditClass(item.idclass, item.title) }} className="text-secondary bg-sky-500 hover:bg-sky-400 p-1 rounded-lg" href="#"><Pencil /></button>
+                                                <button onClick={() => { handleEditClass(item.idclass, item.title) }} className="text-secondary bg-leticia-500 hover:bg-leticia-400 p-1 rounded-lg" href="#"><Pencil /></button>
                                                 <button onClick={() => handleDeleteClass(item.idclass)} className="text-secondary bg-red-500 hover:bg-red-400 p-1 rounded-lg"><Trash2 /></button>
                                             </div>
                                         </div>
@@ -186,7 +186,7 @@ export default function ModalLecture(props) {
 
                                 <div className="md:col-span-5 text-right m-3">
                                     <div className="inline-flex items-end">
-                                        <button className="bg-violet-500 hover:bg-violet-700 text-white font-bold py-2 px-4 rounded">{onEdit ? "Editar" : "Adicionar"} Atividade</button>
+                                        <button className="bg-secondary-500 hover:bg-secondary-700 text-white font-bold py-2 px-4 rounded">{onEdit ? "Editar" : "Adicionar"} Atividade</button>
                                     </div>
                                 </div>
 
@@ -222,7 +222,7 @@ export default function ModalLecture(props) {
                                                                                     {lecture.title}</td>
                                                                                 <td
                                                                                     className="px-6 py-4 whitespace-nowrap text-end text-sm font-medium">
-                                                                                    <button onClick={() => handleEdit(lecture)} className="text-secondary bg-sky-500 hover:bg-sky-400 p-1 rounded-lg mr-2" href="#"><Pencil /></button>
+                                                                                    <button onClick={() => handleEdit(lecture)} className="text-secondary bg-leticia-500 hover:bg-leticia-400 p-1 rounded-lg mr-2" href="#"><Pencil /></button>
                                                                                     <button onClick={() => { handleDelete(lecture.idlecture) }} className="text-secondary bg-red-500 hover:bg-red-400 p-1 rounded-lg"><Trash2 /></button>
                                                                                 </td>
                                                                             </tr>

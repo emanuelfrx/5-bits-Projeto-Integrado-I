@@ -18,6 +18,8 @@ export const AuthContextProvider = ({children}) => {
             withCredentials: true
         })
 
+        console.log(res.data)
+
         if(res.data.role == 0){
             setCurrentMonitor(res.data.body)
         }

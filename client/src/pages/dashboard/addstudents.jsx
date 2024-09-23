@@ -12,7 +12,7 @@ function StudentsForm() {
 
         <div className="lg:max-w-5xl mx-auto">
             {/* Dashboard actions */}
-            < div className="sm:flex sm:justify-between sm:items-center mb-8" >
+            < div className="sm:flex sm:justify-between sm:items-center mb-4" >
 
                 {/* Left: Title */}
                 < div className="mb-4 sm:mb-0" >
@@ -21,10 +21,10 @@ function StudentsForm() {
 
             </div >
 
-            <div className="mt-10 w-full sm:mx-auto sm:w-full">
+            <div className="w-full sm:mx-auto sm:w-full bg-gray-100 dark:bg-slate-800">
 
-                <Tabs aria-label="Default tabs" variant="default">
-                    <Tabs.Item active title="Registar Inscritos">
+                <Tabs aria-label="Default tabs"  variant="fullWidth" >
+                    <Tabs.Item active title="Registar Inscritos" className="active:bg-red-500">
                         <ResgisterStudentAdmin className="" />
                     </Tabs.Item>
                     <Tabs.Item title="Importar Planilha de Inscritos" >
@@ -32,6 +32,7 @@ function StudentsForm() {
                     </Tabs.Item>
                 </Tabs>
 
+            
             </div>
 
         </div>
