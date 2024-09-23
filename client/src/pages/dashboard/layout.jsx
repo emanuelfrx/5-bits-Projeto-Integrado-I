@@ -46,7 +46,7 @@ const HomeAdmin = () => {
                     {/*  Site header */}
                     <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} props={currentUser} />
 
-                    <main className="grow bg-gray-200 dark:bg-slate-900">
+                    <main className="grow bg-[#F1F5F9] dark:bg-slate-900">
                         <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
 
                             <Outlet></Outlet>

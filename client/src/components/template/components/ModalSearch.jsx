@@ -83,7 +83,7 @@ function ModalSearch({
               />
               <button className="absolute inset-0 right-auto group" type="submit" aria-label="Search">
                 <svg
-                  className="shrink-0 fill-current text-gray-400 dark:text-gray-500 group-hover:text-gray-500 dark:group-hover:text-gray-400 ml-4 mr-2"
+                  className="shrink-0 fill-current text-gray-900 dark:text-gray-500 group-hover:text-gray-500 dark:group-hover:text-gray-900 ml-4 mr-2"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -98,7 +98,7 @@ function ModalSearch({
           <div className="py-4 px-2">
             {/* Recent searches */}
             <div className="mb-3 last:mb-0">
-              <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase px-2 mb-2">Recent searches</div>
+              <div className="text-xs font-semibold text-gray-900 dark:text-gray-500 uppercase px-2 mb-2">Recent searches</div>
               <ul className="text-sm">
                 <li>
                   <Link
@@ -107,7 +107,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -124,7 +124,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -141,7 +141,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -158,7 +158,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -175,7 +175,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -192,7 +192,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -206,7 +206,7 @@ function ModalSearch({
             </div>
             {/* Recent pages */}
             <div className="mb-3 last:mb-0">
-              <div className="text-xs font-semibold text-gray-400 dark:text-gray-500 uppercase px-2 mb-2">Recent pages</div>
+              <div className="text-xs font-semibold text-gray-900 dark:text-gray-500 uppercase px-2 mb-2">Recent pages</div>
               <ul className="text-sm">
                 <li>
                   <Link
@@ -215,7 +215,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -224,7 +224,7 @@ function ModalSearch({
                     </svg>
                     <span>
                       <span className="font-medium">Messages</span> -{' '}
-                      <span className="text-gray-600 dark:text-gray-400">Conversation / … / Mike Mills</span>
+                      <span className="text-gray-600 dark:text-gray-900">Conversation / … / Mike Mills</span>
                     </span>
                   </Link>
                 </li>
@@ -235,7 +235,7 @@ function ModalSearch({
                     onClick={() => setModalOpen(!modalOpen)}
                   >
                     <svg
-                  className="fill-current text-gray-400 dark:text-gray-500 shrink-0 mr-3"
+                  className="fill-current text-gray-900 dark:text-gray-500 shrink-0 mr-3"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -244,7 +244,7 @@ function ModalSearch({
                     </svg>
                     <span>
                       <span className="font-medium">Messages</span> -{' '}
-                      <span className="text-gray-600 dark:text-gray-400">Conversation / … / Eva Patrick</span>
+                      <span className="text-gray-600 dark:text-gray-900">Conversation / … / Eva Patrick</span>
                     </span>
                   </Link>
                 </li>

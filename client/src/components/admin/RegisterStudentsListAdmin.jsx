@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as XLSX from 'xlsx';
 import { makeRequest } from "../../axios";
 import { useQuery } from "@tanstack/react-query";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Modal } from "flowbite-react";
 
-function ResgisterStudentsListAdmin() {
+function ResgisterStudentsListAdmin(props) {
 
   // onchange states
   const [excelFile, setExcelFile] = useState(null);
@@ -50,7 +53,7 @@ function ResgisterStudentsListAdmin() {
 
   //change event
 
-  const [currentEvent2, setCurrentEvent2] = useState(null)
+  const [currentEvent2, setCurrentEvent2] = useState(props.event != undefined ? props.event : null)
 
   const { isLoading, error, data: events2 } = useQuery({
     queryKey: ["events2"],
@@ -71,18 +74,39 @@ function ResgisterStudentsListAdmin() {
   //submit list
 
   const handleSend = async () => {
-    const res = await makeRequest.post("/students/addstudents", { excelData, eventid: currentEvent2.idevent }).then((res) => {
-      return res.data
+    const res = await makeRequest.post("/students/addstudents", { excelData, eventid: currentEvent2.idevent }).then((data) => {
+      toast.success(data.data)
+    }).catch((err) => {
+      toast.error(err.response.data)
     })
 
-    document.getElementById("select_event_2").value = 0
-    setCurrentEvent2(null)
+    if (props.event == undefined) {
+      document.getElementById("select_event_2").value = 0
+      setCurrentEvent2(null)
+    }
   }
 
-  return (
-    <div className="wrapper mt-10 sm:mx-auto sm:w-full p-3 shadow-lg">
+  const [showModal, setShowModal] = useState(false);
 
-      <h3 className="font-bold p-2 mt-1 text-2xl">Upload de Planilha de alunos</h3>
+  return (
+
+    <div className="wrapper mt-2 sm:mx-auto sm:w-full p-1 md:p-3">
+
+      <Modal show={showModal} onClose={() => setShowModal(false)}>
+        <Modal.Header>Aviso!</Modal.Header>
+        <Modal.Body>
+          <div className="space-y-6 text-bold">
+            Clique no botão "Cadastrar Participantes" para concluir a importação.
+          </div>
+        </Modal.Body>
+        <Modal.Footer className=" justify-end">
+          <button color="gray" className="font-bold text-gray-50 bg-primary-500 rounded-xl px-4 py-2" onClick={() => setShowModal(false)}>
+            OK
+          </button>
+        </Modal.Footer>
+      </Modal>
+
+      <h3 className="font-bold p-2 text-2xl">Upload de Planilha de alunos</h3>
 
 
       {
@@ -92,8 +116,8 @@ function ResgisterStudentsListAdmin() {
             ? <div>Loading</div>
             : <div>
               <div className="flex items-center gap-y-2">
-                <label className="text-sm font-medium leading-6 text-gray-900 mr-2">Selecione o evento:</label>
-                <select id="select_event_2" defaultValue={0} name="eventid" onChange={changeSelect2} className="flex-1 rounded-md border-0 py-1.5 px-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <label className="text-sm font-medium leading-6 text-gray-900 dark:text-gray-100 mr-2">Selecione o evento:</label>
+                <select id="select_event_2" defaultValue={props.event != undefined ? props.event.idevent : 0} name="eventid" onChange={changeSelect2} className="flex-1 rounded-md border-0 py-1.5 px-1.5 dark:bg-neutral-900 text-gray-900 dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary-600 sm:text-sm sm:leading-6" disabled={props.event != undefined ? "disabled" : ""}>
                   <option key="0" value="0" disabled>Selecione</option>
                   {events2.map((event) => (
                     <option key={event.idevent} value={event.idevent}>{event.title}</option>
@@ -105,19 +129,19 @@ function ResgisterStudentsListAdmin() {
 
       {currentEvent2 != null ?
         <div>
-          <form className="gap-1 flex" onSubmit={handleFileSubmit}>
-            <input type="file" className="" required onChange={handleFile} />
-            <button type="submit" className="rounded-sm p-2 shadow-slate-700 bg-amber-500">UPLOAD</button>
-            {excelData ? <button onClick={handleSend} type="button" className="rounded-sm p-2 shadow-slate-700 bg-sky-500">ENVIAR</button> : ""}
+          <form className="p-3 md:p-1 mt-2 md:mt-4 gap-1 md:gap-3 flex flex-col md:flex-row" onSubmit={handleFileSubmit}>
+            <input type="file" className="md:w-1/2 file:bg-secondary-500 hover:file:bg-primary-400 bg-white dark:bg-neutral-900 appearance-none  border border-gray-200 dark:border-gray-700  rounded-lg w-full py-2 px-4 text-gray-600 dark:text-gray-200 leading-tight focus:outline-none focus:bg-white" required onChange={handleFile} />
+            <button type="submit" onClick={()=>setShowModal(true)} className="rounded-lg text-white p-2 shadow-slate-700 bg-secondary-500 hover:bg-secondary-700">Vizualizar Planilha</button>
+            {excelData ? <button onClick={handleSend} type="button" className="rounded-lg text-white p-2 shadow-slate-700 bg-primary-500 hover:bg-primary-700">Cadastrar Participantes</button> : <button type="button" className="rounded-lg text-white p-2 shadow-slate-700 bg-gray-400 hover:cursor-default">Cadastrar Participantes</button>}
             {typeError && (
               <div className="alert alert-danger" role="alert">{typeError}</div>
             )}
           </form>
 
 
-          <div className="p-3">
+          <div className="p-3 md:p-1 mt-2 md:mt-4">
             {excelData ? (
-              <div className="card overflow-hidden rounded-sm border">
+              <div className="card overflow-hidden rounded-sm border p-3 md:p-1">
                 <table className="mx-auto min-w-full divide-y">
 
                   <thead>
@@ -141,7 +165,7 @@ function ResgisterStudentsListAdmin() {
                 </table>
               </div>
             ) : (
-              <div className="mx-auto">No File is uploaded yet!</div>
+              <div className="mx-auto md:visible">Nenhum Arquivo Enviado Ainda</div>
             )}
           </div>
         </div>

@@ -9,11 +9,11 @@ export const login = (req, res) => {
     db.query(q, [req.body.username], (err, data) => {
         if (err) return res.status(500).json(err)
 
-        if (data.length <= 0) return res.status(404).json("User not found!")
+        if (data.length <= 0) return res.status(404).json("Usuário não encontrado!")
 
         const checkPassword = bcrypt.compareSync(req.body.password, data[0].password)
 
-        if (!checkPassword) return res.status(400).json("Wrong password or username!")
+        if (!checkPassword) return res.status(400).json("Usuário ou senha incorreto(s)!")
 
         const token = jwt.sign({ id: data[0].idadmin, role: data[0].role }, "secretkey")
 

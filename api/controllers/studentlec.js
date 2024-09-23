@@ -10,18 +10,33 @@ export const addStudent = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-        const q = "INSERT INTO studentslec (`name`, `email`, `date_born`, `eventid`) VALUES (?)"
+        const q = "INSERT INTO students (`name`, `email`, `date_born`, `eventid`, `mat`, `gender`, category) VALUES (?)"
 
         const values = [
             req.body.name,
             req.body.email,
             req.body.date_born,
-            req.body.eventid
+            req.body.eventid,
+            req.body.mat,
+            req.body.gender,
+            "FLOWPASS"
         ]
 
         db.query(q, [values], (err, data) => {
-            if (err) return res.status(500).json(values)
-            return res.status(200).json("student has been created")
+            if (err) return res.status(500).json(err)
+
+            const q = "INSERT INTO studentslec (`lectureid`, `studentid`) VALUES (?)"
+            
+            const values = [
+                req.body.lectureid,
+                data.insertId
+            ]
+
+            db.query(q, [values], (err, data) => {
+                if (err) return res.status(500).json(err)
+
+                return res.status(200).json("student has been created")
+            })
         })
 
     })
@@ -81,8 +96,10 @@ export const getStudentsClass = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-        const q = `SELECT * FROM studentslec LEFT JOIN presences pre ON pre.classid = ? AND idstudentlec = pre.studentid WHERE lectureid = ?`
+        const q = `SELECT * FROM students LEFT JOIN studentslec ON studentslec.studentid = students.idstudent LEFT JOIN presences pre ON pre.classid = ? AND studentslec.idstudentlec = pre.studentlecid WHERE studentslec.lectureid = ?`
+
         db.query(q, [req.body.idclass, req.body.lectureid], (err, data) => {
+
             if (err) return res.status(500).json(err)
 
             return res.status(200).json(data)
@@ -99,7 +116,7 @@ export const checkPresence = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-        const q = "SELECT * FROM presences AS pre WHERE pre.studentid = ? AND pre.classid = ?"
+        const q = "SELECT * FROM presences AS pre WHERE pre.studentlecid = ? AND pre.classid = ?"
 
         const values = [
             req.body.idstudent,
@@ -112,14 +129,14 @@ export const checkPresence = (req, res) => {
             let q
 
             if (data.length > 0) {
-                q = "DELETE FROM presences AS pre WHERE pre.studentid = ? AND pre.classid = ?"
+                q = "DELETE FROM presences AS pre WHERE pre.studentlecid = ? AND pre.classid = ?"
                 db.query(q, values, (err, data) => {
                     if (err) return res.status(500).json(err)
 
                     res.status(200).json("Presence changed success!")
                 })
             } else {
-                q = "INSERT INTO presences (`studentid`, `classid`) VALUES (?)"
+                q = "INSERT INTO presences (`studentlecid`, `classid`) VALUES (?)"
                 db.query(q, [values], (err, data) => {
                     if (err) return res.status(500).json(err)
 
@@ -140,7 +157,7 @@ export const markAll = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-            const q = `SELECT * FROM studentslec LEFT JOIN presences pre ON pre.classid = ? AND idstudentlec = pre.studentid WHERE lectureid = ?`
+            const q = `SELECT * FROM studentslec LEFT JOIN presences pre ON pre.classid = ? AND idstudentlec = pre.studentlecid WHERE lectureid = ?`
 
             db.query(q, [req.body.idclass, req.body.lectureid], (err, data) => { 
                 if (err) return res.status(500).json(err)
@@ -179,7 +196,7 @@ export const unmarkAll = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-            const q = `SELECT * FROM studentslec LEFT JOIN presences pre ON pre.classid = ? AND idstudentlec = pre.studentid WHERE lectureid = ?`
+            const q = `SELECT * FROM studentslec LEFT JOIN presences pre ON pre.classid = ? AND idstudentlec = pre.studentlecid WHERE lectureid = ?`
 
             db.query(q, [req.body.idclass, req.body.lectureid], (err, data) => { 
                 if (err) return res.status(500).json(err)
@@ -259,7 +276,7 @@ export const markAll = (req, res) => {
     jwt.verify(token, "secretkey", (err, adminInfo) => {
         if (err) return res.status(403).json("Token is not valid!")
 
-        const q = "SELECT * FROM presences AS pre WHERE pre.studentid = ? AND pre.classid = ?"
+        const q = "SELECT * FROM presences AS pre WHERE pre.studentlecid = ? AND pre.classid = ?"
 
         const values = [
             req.body.idstudent,
@@ -272,7 +289,7 @@ export const markAll = (req, res) => {
             let q
 
             if (data.length > 0) {
-                q = "DELETE FROM presences AS pre WHERE pre.studentid = ? AND pre.classid = ?"
+                q = "DELETE FROM presences AS pre WHERE pre.studentlecid = ? AND pre.classid = ?"
                 db.query(q, values, (err, data) => {
                     if (err) return res.status(500).json(err)
 

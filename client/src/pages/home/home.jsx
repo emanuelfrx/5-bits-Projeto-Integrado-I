@@ -11,24 +11,30 @@ import tool4 from '../../assets/tools/figma-96.png'
 import tool5 from '../../assets/tools/mysql-96.png'
 import tool6 from '../../assets/tools/illustrator-96.png'
 import SMD from '../../assets/smd.png'
+import logoex from '../../assets/logoex.png'
+
+import home_img_1 from '../../assets/home_img_1.png'
+import home_img_2 from '../../assets/home_img_2.png'
+import home_img_3 from '../../assets/home_img_3.png'
 
 import { Github, Linkedin } from "lucide-react";
 
 function Home() {
+
+    const navigate = useNavigate()
+
     return (
         <div className="bg-gray-50">
-            <nav>
+            <nav className="bg-primary-100">
                 <div
                     className="container mx-auto px-6 py-2 flex justify-between items-center"
                 >
                     <a
-                        className="font-bold text-2xl lg:text-4xl text-green-500 flex gap-x-2 items-center"
+                        className="font-bold text-2xl lg:text-4xl text-primary-500 flex gap-x-2 items-center"
                         href="#"
                     >
-                        <svg className="fill-green-500" xmlns="http://www.w3.org/2000/svg" width={32} height={32}>
-                            <path d="m 96.678337,68.804586 a 59.196552,59.196548 0 0 0 -59.196387,59.196384 59.196552,59.196548 0 0 0 0.01499,0.20929 c 15.525014,4.7794 32.653724,12.52594 42.340568,24.91889 2.626209,3.35987 5.085038,7.34818 7.379395,11.74502 l 23.291597,-60.35135 -7.50445,-2.85306 26.18083,-23.130368 A 59.196552,59.196548 0 0 0 96.678337,68.804586 Z m 34.107483,10.835514 4.50721,34.30488 -7.82329,-2.97398 -29.37857,76.12559 a 59.196552,59.196548 0 0 0 57.78355,-59.09562 59.196552,59.196548 0 0 0 -25.0889,-48.36087 z m -90.546932,66.00062 a 59.196552,59.196548 0 0 0 37.233903,38.21627 c -3.421821,-7.27307 -7.334153,-14.00261 -11.865943,-19.4448 -6.546403,-8.18983 -15.69926,-14.26191 -25.36796,-18.77147 z" />
-                        </svg>
-                        FlowPass
+
+                        <img src={logoex} height={32} width={120} />
                     </a>
                     <div className="block lg:hidden">
                         <button
@@ -50,16 +56,16 @@ function Home() {
                                 <a className="px-4 font-bold" href="/">Home</a>
                             </li>
                             <li>
-                                <a className="px-4 hover:text-gray-100" href="#funcionalidades">Funcionalidades</a>
+                                <a className="px-4 hover:text-gray-500" href="#funcionalidades">Funcionalidades</a>
                             </li>
                             <li>
-                                <a className="px-4 hover:text-gray-100" href="#sobrenos">Sobre nós</a>
+                                <a className="px-4 hover:text-gray-500" href="#sobrenos">Sobre nós</a>
                             </li>
                             <li>
-                                <a className="px-4 hover:text-gray-100" href="#ferramentas">Ferramentas</a>
+                                <a className="px-4 hover:text-gray-500" href="#ferramentas">Ferramentas</a>
                             </li>
                             <li>
-                                <Link to="/login" className="px-4 hover:text-gray-100" >Login</Link>
+                                <Link to="/login" className="px-4 hover:text-gray-500" >Login</Link>
                             </li>
                         </ul>
                     </div>
@@ -69,72 +75,69 @@ function Home() {
                 className={"py-20 xl:py-40 bg-homebg bg-center bg-cover"}
             >
                 <div className="container mx-auto px-6">
-                    <h2 className="text-4xl font-bold mb-2 text-white">
-                        Uma Maneira Simples de Administrar Eventos!
+                    <h2 className="text-3xl font-bold mb-2 text-white">
+                        Precisa registrar as presenças do seu evento? Veio ao lugar certo!
                     </h2>
                     <h3 className="text-2xl mb-8 text-gray-200">
                         Eventos que nescessitam de presenças são o nosso alvo.
                     </h3>
                     <button
-                        className="bg-green-400 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider"
+                        className="bg-primary-500 hover:bg-primary-700 font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider" onClick={() => navigate("/login")}
                     >
                         Entrar
                     </button>
                 </div>
             </div>
             <div className="bg-gray-50">
-                <section className="container mx-auto px-6 p-10" id="funcionalidades">
+                <section className="container mx-auto px-6 p-10 xl:px-72" id="funcionalidades">
                     <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
                         Funcionalidades
                     </h2>
-                    <div className="flex items-center flex-wrap mb-20">
-                        <div className="w-full md:w-1/3">
-                            <img src={People} className="w-1/2 ml-auto" alt="Monitoring" />
-                        </div>
-                        <div className="w-full md:w-2/3">
-                            <h4 className="text-3xl text-gray-800 font-bold mb-3">
-                                Adicionar Eventos Personalizaveis
-                            </h4>
-                            <p className="6mb-8">
-                                Our Smart Health Monitoring Wristwatch is able to capture you vitals
-                                while you exercise. You can create different category of exercises
-                                and can track your vitals on the go.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="flex items-center flex-wrap mb-20">
-                        <div className="w-full md:w-1/3">
-                            <img src={Lectures} className="w-1/2 ml-auto" alt="Reporting" />
-                        </div>
-                        <div className="w-full md:w-2/3">
-                            <h4 className="text-3xl text-gray-800 font-bold mb-3">
-                                Criar aulas e atividades
-                            </h4>
-                            <p className="6mb-8">
-                                Our Smart Health Monitoring Wristwatch can generate a comprehensive
-                                report on your vitals depending on your settings either daily,
-                                weekly, monthly, quarterly or yearly.
-                            </p>
+                    <div className="rounded-lg shadow-lg bg-[#F1F5F9] p-4 mb-4">
+                        <div className="max-w-sm w-full lg:max-w-full lg:flex">
+                            <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
+                                <img src={home_img_1} alt="" />
+                            </div>
+                            <div className=" p-4 flex flex-col justify-between leading-normal">
+                                <div className="mb-8">
+
+                                    <div className="text-gray-900 font-bold text-2xl mb-2">Criar seu Evento</div>
+                                    <p className="text-gray-700 text-lg">Dê um título e uma capa ao seu evento, defina a data de início e término e escolha uma imagem para o banner. Você também pode incluir tags relacionadas ao seu evento. Em seguida, crie as atividades, defina os instrutores e o número de aulas para cada atividade.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div className="flex items-center flex-wrap mb-20">
-                        <div className="w-full md:w-1/3">
-                            <img src={Presences} className="w-2/5 ml-auto mr-2" />
+                    <div className="rounded-lg shadow-lg bg-[#F1F5F9] p-4 mb-4">
+                        <div className="max-w-sm w-full lg:max-w-full lg:flex">
+                            <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
+                                <img src={home_img_2} alt="" />
+                            </div>
+                            <div className=" p-4 flex flex-col justify-between leading-normal">
+                                <div className="mb-8">
+
+                                    <div className="text-gray-900 font-bold text-2xl mb-2">Adicionar seus inscritos</div>
+                                    <p className="text-gray-700 text-lg">Inclua os nomes e e-mails das pessoas cadastradas no seu evento. Você pode adicionar vários participantes de uma vez importando uma lista com seus dados ou adicionar manualmente um participante por vez.</p>
+                                </div>
+                            </div>
                         </div>
-                        <div className="w-full md:w-2/3">
-                            <h4 className="text-3xl  text-gray-800 font-bold mb-3">
-                                Marcar presenças
-                            </h4>
-                            <p className="6mb-8">
-                                Our Smart Health Monitoring Wristwatch allows you to sync data
-                                across all your mobile devices whether iOS, Android or Windows OS
-                                and also to your laptop whether MacOS, GNU/Linux or Windows OS.
-                            </p>
+                    </div>
+                    <div className="rounded-lg shadow-lg bg-[#F1F5F9] p-4 mb-4">
+                        <div className="max-w-sm w-full lg:max-w-full lg:flex">
+                            <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
+                                <img src={home_img_3} alt="" />
+                            </div>
+                            <div className=" p-4 flex flex-col justify-between leading-normal">
+                                <div className="mb-8">
+
+                                    <div className="text-gray-900 font-bold text-2xl mb-2">Registrar as presenças</div>
+                                    <p className="text-gray-700 text-lg">Para cada aula de uma atividade do seu evento, você pode registrar a presença dos participantes. Nós te ajudamos a verificar se o aluno está elegível para receber o certificado de participação, caso tenha participado de todas as aulas de uma atividade.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </section>
             </div>
-            <section className="bg-gradient-to-b from-green-500 to-gray-50" id="sobrenos">
+            <section className="bg-primary-500 to-gray-50" id="sobrenos">
                 <div className="container mx-auto px-6 py-20">
                     <h2 className="text-4xl font-bold text-center text-gray-100 mb-8">
                         Sobre nós
@@ -219,7 +222,7 @@ function Home() {
                             <div className="p-2">
                                 <h3 className="text-center text-xl text-gray-900 font-medium leading-8">Emanuel Freitas</h3>
                                 <div className="text-center text-gray-400 text-xs font-semibold">
-                                    <p>nao sei</p>
+                                    <p>UX</p>
                                 </div>
 
                                 <div className="w-full my-3 flex">
@@ -292,7 +295,7 @@ function Home() {
                     </div>
                 </section>
             </div>
-            <footer className="bg-green-500 text-white">
+            <footer className="bg-primary-500 text-white">
                 <div className="container mx-auto px-6 pt-10 pb-6">
                     <div className="flex flex-wrap gap-y-2">
                         <div className="w-full h-full flex items-center md:w-1/4 text-center ">
@@ -308,7 +311,7 @@ function Home() {
                         </div>
                         <div className="w-full md:w-1/4 text-center items-center">
 
-                                <img src={SMD} className="mx-auto w-2/5"></img>
+                            <img src={SMD} className="mx-auto w-2/5"></img>
 
                         </div>
                         <div className="w-full md:w-1/4 text-center ">

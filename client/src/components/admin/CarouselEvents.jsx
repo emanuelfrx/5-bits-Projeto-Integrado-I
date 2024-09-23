@@ -25,8 +25,8 @@ export default function CarouselEvents() {
                             ? <>Loading</>/*
                                     : currentRecords == null
                                         ? ""
-                                        */: data.map((event) => (
-                                <div key={event.idevent} className={`bg-[url('../../assets/upload/${event.img_event}')] bg-cover bg-green-300 dark:bg-green-500 h-full grid grid-cols-2 rounded-lg overflow-hidden shadow-2xl hover:cursor-pointer`}>
+                                        */: data.slice(0).reverse().map((event) => (
+                                <div key={event.idevent} className={`bg-[url('../../assets/upload/${event.img_event}')] bg-cover bg-primary-300 dark:bg-primary-500 h-full grid grid-cols-2 rounded-lg overflow-hidden shadow-2xl hover:cursor-pointer`}>
                                     <div className="col-span-1 h-full">
                                         <div className="w-full px-6 py-4">
                                             <div className="font-bold text-3xl mb-2">{event.title}</div>
